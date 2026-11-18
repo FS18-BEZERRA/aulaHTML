@@ -5,3 +5,8 @@ Ctrl + ; = Criar comentário
 ! = Cria uma estrutura básica em HTML
 
 Alt + Z = Quebra de linha no vscode
+
+Ctrl + Z = Desfazer
+
+Ctrl + Y = Refazer
+
