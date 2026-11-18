@@ -1,0 +1,54 @@
+<!-- Estrutura básica em HTML  -->
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- meta: tag para configurações -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title = título da aba -->
+    <title>Aula HTML</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: #f0f0f0;
+      }
+      .mode {
+        background-color: #151515;
+        color: #f0f0f0;
+      }
+      button {
+        background-color: blue;
+      }
+    </style>
+    <!-- Conteúdo principal -->
+    <main>
+      <button onclick="mudarTema()">Alterar tema</button>
+      <!-- Título Principal (h1 - h6) -->
+      <h1>Desenvolvimento Web</h1>
+      <!-- Parágrafo -->
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+        sapiente ea blanditiis cupiditate! Harum <b>molestias</b> repellendus ab
+        doloribus <strong>temporibus</strong> adipisci, corporis vel placeat
+        corrupti, laborum, commodi distinctio quod neque voluptatum!
+      </p>
+      <h2>HTML - Linguagem de Marcação de Hipertexto</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+        cupiditate.
+      </p>
+      <h6>Último nível de título</h6>
+      <!-- Link externo -->
+      <a href="https://google.com.br">Ir para Google</a>
+      <!-- Link interno -->
+      <a href="segundaPagina.html" target="_blank" rel="noopener noreferrer">Ir para detalhes</a>
+      <img src="https://logospng.org/wp-content/uploads/html-5.png"  alt="icone HTML" width="50" height="50">
+    </main>
+    <script>
+      function mudarTema() {
+        document.body.classList.toggle("mode");
+      }
+    </script>
+  </body>
+</html>
