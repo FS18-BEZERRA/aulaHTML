@@ -1,0 +1,20 @@
+#Configuração
+
+git config --global user.name "seu_usuario_github"
+git config --global user.email "seu_email_github"
+
+#Clone
+
+git clone "https://seu_projeto_no_github.com"
+
+#Adição de alteração
+
+git add .
+
+#Confirmação de alteração
+
+git commit -m "descricao da alteracao"
+
+#Envio para Repositório Remoto
+
+git push origin main 
