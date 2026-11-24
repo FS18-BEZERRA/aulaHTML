@@ -10,3 +10,8 @@ Ctrl + Z = Desfazer
 
 Ctrl + Y = Refazer
 
+Ctrl + Shift + P = abre menu de pesquisa do vscode
+
+Emmet:wrap and abbreviation (opção na pesquisa para encapsular tags dentro de uma seleção)
+
+Shift + Alt + Seta p/ baixo = clone de linha ou seleção
