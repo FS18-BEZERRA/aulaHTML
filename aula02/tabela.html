@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela de Funcionários</title>
+    <style>
+        thead, tfoot td {
+            background-color: #bcb2b2;
+        }
+        th, td, table {
+            border: 1px solid;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        .td-color{
+            background-color: burlywood;
+        } 
+        .td-bold {
+            font-weight: 800;
+        }
+        tfoot td {
+            padding: 15px;
+        }
+
+        tfoot td.tfoot-td-paginacao {
+            background-color: black;
+        }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+            <th colspan="6">Funcionários</th>
+        </tr>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Documento</th>
+          <th>Email</th>
+          <th>Telefone</th>
+          <th>Ativo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td class="td-color td-bold">1</td>
+            <td>Lucas</td>
+            <td>999.999.999-99</td>
+            <td>lucas@teste.com</td>
+            <td>(99) 9 9999-9999</td>
+            <td><img src="https://www.iconpacks.net/icons/2/free-check-icon-3278-thumb.png" width="15" alt="ativo"></td>
+        </tr>
+        <tr>
+            <td class="td-color td-bold">2</td>
+            <td>Antônio</td>
+            <td>000.000.000-00</td>
+            <td>antonio@teste.com</td>
+            <td>(99) 0 0000-0000</td>
+            <td><img src="https://www.iconpacks.net/icons/2/free-check-icon-3278-thumb.png" width="15" alt="ativo"></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+        <tr>
+            <td colspan="6" class="tfoot-td-paginacao"> Páginas 1 de 1</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
